@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 100px;
+}
+
+#converte{
+    cursor: pointer;
+}
+
+#result-box {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
